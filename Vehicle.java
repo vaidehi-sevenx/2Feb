@@ -7,7 +7,6 @@ public class Vehicle {
 	private int maximumSpeed;
 	private String color;
 	private long price;
-	private String reviews;
 
 	public String getBrand() {
 		return brand;
@@ -57,12 +56,5 @@ public class Vehicle {
 		this.price = price;
 	}
 
-	public String getReviews() {
-		return reviews;
-	}
-
-	public void setReviews(String reviews) {
-		this.reviews = reviews;
-	}
 
 }
