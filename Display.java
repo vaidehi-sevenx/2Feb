@@ -14,7 +14,6 @@ public class Display {
 				System.out.println("Price\t" +car.getPrice());
 				System.out.println("Maximum Speed\t" +car.getMaximumSpeed());
 				System.out.println("Model\t" +car.getModel());
-				System.out.println("Reviews\t" +car.getReviews());
 			}else if(vehicles instanceof bike) {
 				bike bike = (bike)vehicles;
 				System.out.println("Company name\t" +bike.getBrand());
@@ -23,7 +22,6 @@ public class Display {
 				System.out.println("Price\t" +bike.getPrice());
 				System.out.println("Maximum Speed\t" +bike.getMaximumSpeed());
 				System.out.println("Model\t" +bike.getModel());
-				System.out.println("Reviews\t" +bike.getReviews());
 			}
 		}
 		
